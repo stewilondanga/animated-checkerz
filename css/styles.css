@@ -112,25 +112,28 @@ input[type="checkbox"]:focus+label {
   animation-timing-function: linear;
 }
 
-/*@-webkit-keyframes cb-pop {
-	0% {
-		-webkit-transform: scale(1);
-		        transform: scale(1);
-	}
-	33% {
-		-webkit-transform: scale(0.9);
-		        transform: scale(0.9);
-	}
-	66% {
-		-webkit-transform: scale(1.1);
-		        transform: scale(1.1);
-	}
-	100% {
-		tranform: scale(1);
-	}
+@-webkit-keyframes cb-pop {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  33% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  66% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    tranform: scale(1);
+  }
 }
 
-@keyframes cb-pop {
+/*@keyframes cb-pop {
 	0% {
 		-webkit-transform: scale(1);
 		        transform: scale(1);
