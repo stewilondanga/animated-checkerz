@@ -50,11 +50,11 @@ label {
   transition: 400ms 100ms ease-out;
 }
 
-/*label:hover {
-	border-color: var(--hover-color);
+label:hover {
+  border-color: var(--hover-color);
 }
 
-input[type="checkbox"] {
+/*input[type="checkbox"] {
 	position: absolute;
 	left: -1000px;
 }
