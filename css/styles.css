@@ -94,14 +94,14 @@ input[type="checkbox"] {
   border-radius: 50%;
 }
 
-/*input[type="checkbox"]:checked + label .tick {
-	opacity: 1;
-	-webkit-transform: rotate(45deg) scale(1);
-	    -ms-transform: rotate(45deg) scale(1);
-	        transform: rotate(45deg) scale(1);
+input[type="checkbox"]:checked+label .tick {
+  opacity: 1;
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
 }
 
-input[type="checkbox"]:focus + label {
+/*input[type="checkbox"]:focus + label {
 	-webkit-animation-name: cb-pop;
 	        animation-name: cb-pop;
 	-webkit-animation-duration: 400ms;
