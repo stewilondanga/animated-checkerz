@@ -8,6 +8,15 @@
   --tick-color: #84DCC6;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--bg-color);
+}
+
 /*
 
 .my_social {
@@ -27,14 +36,6 @@
 
 
 
-body{
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-	text-align: center;
-	font-family: 'Nunito', sans-serif;
-	background-color: var(--bg-color);
-}
 
 h1 {
 	color: var(--checkbox-color);
