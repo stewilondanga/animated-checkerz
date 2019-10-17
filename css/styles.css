@@ -85,16 +85,16 @@ input[type="checkbox"] {
   border-radius: 50%;
 }
 
-/*.tick:after {
-	content: '';
-	position: absolute;
-	right: calc(var(--checkbox-size) * -0.25);
-	top: calc(var(--checkbox-size) * -0.125);
-	border: calc(var(--checkbox-size) * 0.125) solid var(--tick-color);
-	border-radius: 50%;
+.tick:after {
+  content: '';
+  position: absolute;
+  right: calc(var(--checkbox-size) * -0.25);
+  top: calc(var(--checkbox-size) * -0.125);
+  border: calc(var(--checkbox-size) * 0.125) solid var(--tick-color);
+  border-radius: 50%;
 }
 
-input[type="checkbox"]:checked + label .tick {
+/*input[type="checkbox"]:checked + label .tick {
 	opacity: 1;
 	-webkit-transform: rotate(45deg) scale(1);
 	    -ms-transform: rotate(45deg) scale(1);
