@@ -101,18 +101,18 @@ input[type="checkbox"]:checked+label .tick {
   transform: rotate(45deg) scale(1);
 }
 
-/*input[type="checkbox"]:focus + label {
-	-webkit-animation-name: cb-pop;
-	        animation-name: cb-pop;
-	-webkit-animation-duration: 400ms;
-	        animation-duration: 400ms;
-	-webkit-animation-iteration-count: 1;
-	        animation-iteration-count: 1;
-	-webkit-animation-timing-function: linear;
-	        animation-timing-function: linear;
+input[type="checkbox"]:focus+label {
+  -webkit-animation-name: cb-pop;
+  animation-name: cb-pop;
+  -webkit-animation-duration: 400ms;
+  animation-duration: 400ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
-@-webkit-keyframes cb-pop {
+/*@-webkit-keyframes cb-pop {
 	0% {
 		-webkit-transform: scale(1);
 		        transform: scale(1);
