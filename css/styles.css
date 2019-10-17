@@ -38,20 +38,19 @@ h1 {
   margin: 50px 0;
 }
 
-/*label {
-	display: inline-block;
-	margin: 0 calc(var(--checkbox-size) * 0.25);
-	width: var(--checkbox-size);
-	height: var(--checkbox-size);
-	border: calc(var(--checkbox-size) * 0.125) solid var(--checkbox-color);
-	border-radius: 12.5%;
-	-webkit-transition: 400ms 100ms ease-out;
-	-o-transition: 400ms 100ms ease-out;
-	transition: 400ms 100ms ease-out;
-
+label {
+  display: inline-block;
+  margin: 0 calc(var(--checkbox-size) * 0.25);
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  border: calc(var(--checkbox-size) * 0.125) solid var(--checkbox-color);
+  border-radius: 12.5%;
+  -webkit-transition: 400ms 100ms ease-out;
+  -o-transition: 400ms 100ms ease-out;
+  transition: 400ms 100ms ease-out;
 }
 
-label:hover {
+/*label:hover {
 	border-color: var(--hover-color);
 }
 
