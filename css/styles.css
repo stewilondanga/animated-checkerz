@@ -133,25 +133,28 @@ input[type="checkbox"]:focus+label {
   }
 }
 
-/*@keyframes cb-pop {
-	0% {
-		-webkit-transform: scale(1);
-		        transform: scale(1);
-	}
-	33% {
-		-webkit-transform: scale(0.9);
-		        transform: scale(0.9);
-	}
-	66% {
-		-webkit-transform: scale(1.1);
-		        transform: scale(1.1);
-	}
-	100% {
-		tranform: scale(1);
-	}
+@keyframes cb-pop {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  33% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  66% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    tranform: scale(1);
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
