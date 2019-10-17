@@ -54,12 +54,12 @@ label:hover {
   border-color: var(--hover-color);
 }
 
-/*input[type="checkbox"] {
-	position: absolute;
-	left: -1000px;
+input[type="checkbox"] {
+  position: absolute;
+  left: -1000px;
 }
 
-.tick {
+/*.tick {
 	position: relative;
 	right: calc(var(--checkbox-size) * -0.5);
 	top: calc(var(--checkbox-size) * -0.25);
