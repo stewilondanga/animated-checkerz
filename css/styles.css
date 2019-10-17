@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+:root {
+  --checkbox-size: 100px;
+  --bg-color: #FFA69E;
+  --checkbox-color: #FFFFFF;
+  --hover-color: #FF686B;
+  --tick-color: #84DCC6;
+}
+
 /*
 
 .my_social {
@@ -17,13 +26,6 @@
 }
 
 
-:root {
-	--checkbox-size: 100px;
-	--bg-color: #FFA69E;
-	--checkbox-color: #FFFFFF;
-	--hover-color: #FF686B;
-	--tick-color: #84DCC6;
-}
 
 body{
 	width: 100vw;
